@@ -40,16 +40,4 @@ $(document).ready(function(){
                 `
             );}, "json");
     });
-    
-    // $('img').click(()=>{
-    //     var temp = $(this).attr("num");
-    //     console.log(temp);
-    //     var pic = 'http://pokeapi.co/media/img/'+temp+'.png';
-    //     $('#dex img').attr('src', pic);
-    // });
-    // $(document).on("click", "img", function(){
-    //     var pic = $(this).attr('src');
-    //     $('#dex img').attr('src', pic);
-    // });
-
 });
